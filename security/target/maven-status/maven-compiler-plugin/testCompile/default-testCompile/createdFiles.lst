@@ -1,0 +1,5 @@
+com\fifteenrubles\pollsApp\QuestionControllerTest.class
+com\fifteenrubles\pollsApp\PollControllerTest.class
+com\fifteenrubles\pollsApp\UserControllerTest.class
+com\fifteenrubles\pollsApp\AnswerControllerTest.class
+com\fifteenrubles\pollsApp\LoginTest.class

@@ -1,0 +1,60 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    #    url: 'jdbc:mysql://mysqldb:3306/polls_app'
+    #    username: user
+    url: 'jdbc:mysql://localhost:3306/polls_app'
+    username: root
+    password: '1111'
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        format_sql: true
+  cloud:
+    gateway:
+      routes:
+        - id: answer-service
+          uri: http://localhost:8081
+          predicates:
+            - Path=/answer/**
+        - id: poll-service
+          uri: http://localhost:8082
+          predicates:
+            - Path=/poll/**
+        - id: question-service
+          uri: http://localhost:8083
+          predicates:
+            - Path=/question/**
+        - id: question-with-options-service
+          uri: http://localhost:8084
+          predicates:
+            - Path=/questionWithOptions/**
+        - id: user-service
+          uri: http://localhost:8085
+          predicates:
+            - Path=/user/**
+        - id: security
+          uri: http://localhost:8080
+          predicates:
+            - Path=/userIdFromContext/**
+
+
+  clientId: gateway-client-id
+  secret: $2a$12$ZUamdYa4buAoIoxI6lGOMunBKesogEKoenlUSjCfyX8.y.x53HYUG
+  timeToLiveInDays: 1
+  jwksUrl: https://www.googleapis.com/oauth2/v3/certs
+security:
+  enable:
+    csrf: false
+logging:
+  level:
+    org:
+      springframework:
+        security: TRACE
+server:
+  port: 8080

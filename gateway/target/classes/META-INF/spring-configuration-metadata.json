@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "auth-properties",
+      "type": "com.fifteenrubles.security.properties.AuthProperties",
+      "sourceType": "com.fifteenrubles.security.properties.AuthProperties"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

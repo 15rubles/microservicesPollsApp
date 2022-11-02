@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/answer-service/answer-service.iml" filepath="$PROJECT_DIR$/answer-service/answer-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config/config.iml" filepath="$PROJECT_DIR$/config/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/microservicesPollsApp.iml" filepath="$PROJECT_DIR$/.idea/microservicesPollsApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/poll-service/poll-service.iml" filepath="$PROJECT_DIR$/poll-service/poll-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pollsApp/pollsApp.iml" filepath="$PROJECT_DIR$/pollsApp/pollsApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/question-service/question-service.iml" filepath="$PROJECT_DIR$/question-service/question-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/question-with-options-service/question-with-options-service.iml" filepath="$PROJECT_DIR$/question-with-options-service/question-with-options-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/registry/registry.iml" filepath="$PROJECT_DIR$/registry/registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security/security.iml" filepath="$PROJECT_DIR$/security/security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-service/user-service.iml" filepath="$PROJECT_DIR$/user-service/user-service.iml" />
+    </modules>
+  </component>
+</project>

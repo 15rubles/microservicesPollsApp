@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.fifteenrubles.pollsApp.AnswerControllerTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.503 s - in com.fifteenrubles.pollsApp.AnswerControllerTest

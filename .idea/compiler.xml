@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="registry" />
+        <module name="poll-service" />
+        <module name="security" />
+        <module name="pollsApp" />
+        <module name="question-service" />
+        <module name="answer-service" />
+        <module name="question-with-options-service" />
+        <module name="user-service" />
+        <module name="config" />
+        <module name="gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="answer-service" target="18" />
+      <module name="config" target="18" />
+      <module name="gateway" target="18" />
+      <module name="gateway-security" target="18" />
+      <module name="poll-service" target="18" />
+      <module name="pollsApp" target="18" />
+      <module name="question-service" target="18" />
+      <module name="question-with-options-service" target="18" />
+      <module name="registry" target="18" />
+      <module name="security" target="18" />
+      <module name="service" target="18" />
+      <module name="user-service" target="18" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="answer-service" options="-parameters" />
+      <module name="config" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="gateway-security" options="-parameters" />
+      <module name="poll-service" options="-parameters" />
+      <module name="pollsApp" options="-parameters" />
+      <module name="question-service" options="-parameters" />
+      <module name="question-with-options-service" options="-parameters" />
+      <module name="registry" options="-parameters" />
+      <module name="security" options="-parameters" />
+      <module name="service" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+    </option>
+  </component>
+</project>
